@@ -15,7 +15,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 ADMIN_ROLE_NAME = "HERI.LT komanda"
-LOG_CHANNEL_NAME = "admin-log"
+LOG_CHANNEL_NAME = "𝓛𝓸𝓰-𝓑𝓲𝓵𝓲𝓮𝓽𝓮𝓵𝓲𝓾"
 
 class CloseTicketView(ui.View):
     def __init__(self, ticket_owner, ticket_log):
@@ -172,7 +172,7 @@ async def top10(ctx):
     await ctx.send(embed=embed)
 
 keep_alive()
-bot.run(os.environ['TOKEN'])
+bot.run("MTM2OTIwMTI5MTAwNzQ5NjIzMg.GZtCV4.naWAA-W-N-gdZhjdWcoJ2msvYyU-k5pX-xjZh4")
 
 @bot.command()
 async def žinutė(ctx, kanal: discord.TextChannel, pavadinimas: str, tekstas: str, spalva: str):
